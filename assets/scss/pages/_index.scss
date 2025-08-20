@@ -13,8 +13,28 @@
   }
 }
 
+.station-section {
+  background-image: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  @include media-breakpoint-up(lg) {
+    background-image: url(/assets/images/index/deco-bg.svg);
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+.search-block {
+  margin-bottom: 162px;
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 474px;
+  }
+}
+
 .banner-lg-search {
-  width: 351px;
   padding: 8px;
   height: 64px;
   @include media-breakpoint-up(lg) {
@@ -30,6 +50,15 @@
   }
 }
 
+.btn-recommend {
+  transition: all 0.5s;
+  opacity: 1;
+  overflow: hidden;
+  @include media-breakpoint-up(lg) {
+    opacity: 0;
+  }
+}
+
 @media(min-width: 992px) {
   .recommend-section .card {
     width: 25%;
@@ -39,6 +68,9 @@
 
     &:hover {
       width: 100%;
+      .btn-recommend {
+        opacity: 1;
+      }
     }
   }
 }
