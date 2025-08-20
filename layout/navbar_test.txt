@@ -1,68 +1,44 @@
-<nav class="navbar bg-white py-3 py-lg-5 fixed-top">
+<nav class="navbar bg-wite py-7 fixed-top">
   <div class="container position-relative">
+    <a class="navbar-brand p-0 me-auto" href="index.html">
+      <img src="/assets/images/logo.svg" alt="LOGO" />
+    </a>
 
-    <div class="d-flex align-items-center me-auto">
-        <a class="navbar-brand p-0 me-7" href="index.html">
-          <img src="/assets/images/logo.svg" alt="LOGO" />
-        </a>
-    
-        <!-- PC版搜尋框 -->
-        <form class="position-relative d-none d-lg-block">
-          <span
-            class="material-icons-outlined position-absolute top-50 start-0 translate-middle-y ps-4 text-neutral-60"
-          >
-            search
-          </span>
-          <input
-            type="search"
-            class="form-control rounded-1 py-2 ps-10 navbar-lg-search"
-            id="navbar-lg-search"
-            placeholder="搜尋景點、地點或城市"
-          />
-        </form>
+    <div class="position-absolute start-0 end-0 z-4 px-4 bg-wite">
+        <div class="collapse" id="collapseExample">
+            <div class="d-flex align-items-center">
+                <form class="position-relative w-100">
+                  <span
+                    class="material-icons-outlined align-bottom position-absolute top-50 start-0 translate-middle-y ps-4 text-neutral-60"
+                  >
+                    search
+                  </span>
+                  <input
+                    type="search"
+                    class="form-control rounded-1 py-2 ps-10"
+                    id="exampleFormControlInput1"
+                    placeholder="搜尋景點、地點或城市"
+                  />
+                </form>
+                <button 
+                    type="button" 
+                    class="btn bg-wite p-2 border-0"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample"
+                >
+                    <span class="material-icons-outlined align-bottom">close</span>
+                </button>
+            </div>
+        </div>
     </div>
-    <!-- LOGO -->
-
-    <!-- 搜尋框區塊 -->
-    <div
-      class="collapse position-absolute top-0 start-0 w-100 h-100 z-1 bg-white"
-      id="collapseSearch"
-    >
-      <div class="container d-flex align-items-center h-100">
-        <form class="position-relative flex-grow-1">
-          <span
-            class="material-icons-outlined position-absolute top-50 start-0 translate-middle-y ps-4 text-neutral-60"
-          >
-            search
-          </span>
-          <input
-            type="search"
-            class="form-control rounded-1 py-2 ps-10"
-            placeholder="搜尋景點、地點或城市"
-          />
-        </form>
-        <button
-          type="button"
-          class="btn p-2 border-0 ms-2"
-          data-bs-toggle="collapse"
-          data-bs-target="#collapseSearch"
-        >
-          <span class="material-icons-outlined">close</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- 搜尋按鈕 -->
     <button
       type="button"
-      class="btn p-2 border-0 d-lg-none"
+      class="btn p-2 border-0"
       data-bs-toggle="collapse"
-      data-bs-target="#collapseSearch"
+      data-bs-target="#collapseExample"
     >
-      <span class="material-icons-outlined"> search </span>
+      <span class="material-icons-outlined align-bottom"> search </span>
     </button>
-
-    <!-- 購物車 -->
     <a href="#" class="btn border-0 py-2">
       <span class="position-relative">
         <span
@@ -70,22 +46,21 @@
         >
           2
         </span>
-        <span class="material-icons-outlined">shopping_cart</span>
+        <span class="material-icons-outlined align-bottom">
+          shopping_cart
+        </span>
       </span>
     </a>
-
-    <!-- 漢堡選單 -->
     <button
-      class="btn border-0 p-2 d-lg-none"
+      class="btn border-0 p-2"
       type="button"
       data-bs-toggle="offcanvas"
       data-bs-target="#offcanvasNavbar"
       aria-controls="offcanvasNavbar"
+      aria-label="Toggle navigation"
     >
-      <span class="material-icons-outlined"> menu</span>
+      <span class="material-icons-outlined align-bottom"> menu</span>
     </button>
-
-    <!-- Offcanvas -->
     <div
       class="offcanvas offcanvas-end"
       tabindex="-1"
@@ -122,7 +97,9 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
               <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
