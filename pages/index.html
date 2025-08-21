@@ -1000,9 +1000,94 @@
           <p># ZOBAA # WHERETOGO # TODAY</p>
         </div>
       </section>
-      <section class="bg-primary-40">
+      <section class="bg-primary-40 position-relative overflow-hidden">
+        <img
+          class="card-bg-opacity position-absolute top-0 start-0 translate-middle d-none d-lg-block"
+          src="/assets/images/index/bg-up.svg"
+          alt="bg-up"
+        />
+        <img
+          class="card-bg-opacity position-absolute top-50 start-50 translate-middle d-none d-lg-block"
+          src="/assets/images/index/bg-line.svg"
+          alt="bg-line"
+        />
+        <img
+          class="card-bg-opacity position-absolute top-100 start-100 translate-middle d-none d-lg-block"
+          src="/assets/images/index/bg-down.svg"
+          alt="bg-down"
+        />
         <div class="container py-10 py-lg-12">
-          <img class="img-fluid card-img" src="/assets/images/index/card.png" alt="card">
+          <img
+            class="img-fluid card-img mb-2"
+            src="/assets/images/index/card.png"
+            alt="card"
+          />
+          <div class="card-content rounded-5 p-7 p-lg-9">
+            <div class="row align-items-center">
+              <!-- 左側文字區塊 -->
+              <div class="col-lg-6 d-flex flex-column justify-content-between">
+                <div class="mb-7 mb-lg-0">
+                  <h2 class="fs-5 fs-lg-1 fw-bold text-primary mb-7 mb-lg-5">
+                    為什麼選擇 ZOBAA ?
+                  </h2>
+                  <p
+                    class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-5 mb-lg-7"
+                  >
+                    不只是帶你抵達目的地，更在每一次出發前，替你預想所有細節。ZOBAA
+                    希望你能放心探索世界，把記憶留給旅程本身。
+                  </p>
+                </div>
+                <div class="d-none d-lg-block">
+                  <button
+                    type="button"
+                    class="btn btn-dark btn-card rounded-pill d-flex justify-content-between align-items-center fs-8 fs-lg-7 py-lg-5 px-lg-6"
+                  >
+                    立即探索我們的精心旅程
+                    <span
+                      class="material-icons-outlined align-bottom text-dark bg-light border border-dark rounded-circle p-1 p-lg-2"
+                      >arrow_forward</span
+                    >
+                  </button>
+                </div>
+              </div>
+              <!-- 右側資訊卡片 -->
+              <div class="col-lg-6">
+                <div class="row g-3">
+                  <div class="col-lg-6">
+                    <div class="bg-light text-start rounded-2 p-7 p-lg-13">
+                      <h3 class="fs-3 fs-lg-1 fw-bold mb-2 position-relative d-inline-block">
+                        <span class="me-2">8 年</span>
+                        <img class="plus-sign" src="/assets/images/icon/plus.png" alt="plus">
+                      </h3>
+                      <p class="fs-7 fs-lg-6 fw-bold text-primary-80">旅遊企劃經驗</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="bg-light text-start rounded-2 p-7 p-lg-13 mb-7 mb-lg-0">
+                      <h3 class="fs-3 fs-lg-1 fw-bold mb-2 position-relative d-inline-block">
+                        <span class="me-2">30,000</span>
+                        <img class="plus-sign" src="/assets/images/icon/plus.png" alt="plus">
+                      </h3>
+                      <p class="fs-7 fs-lg-6 fw-bold text-primary-80">旅人五星好評</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Mobile Btn -->
+              <div class="d-block d-lg-none">
+                <button
+                    type="button"
+                    class="btn btn-dark btn-card rounded-pill d-flex justify-content-between align-items-center w-100 fs-8 fs-lg-7 py-lg-5 px-lg-6"
+                  >
+                    立即探索我們的精心旅程
+                    <span
+                      class="material-icons-outlined align-bottom text-dark bg-light border border-dark rounded-circle p-1 p-lg-2"
+                      >arrow_forward</span
+                    >
+                  </button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

@@ -1,0 +1,6 @@
+.footer-logo {
+    padding-bottom: 42px;
+    @include media-breakpoint-up(lg) {
+        padding-bottom: 34px;
+    }
+}
