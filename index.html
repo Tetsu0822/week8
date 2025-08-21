@@ -8,9 +8,13 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet"
     />
-    <title>index</title>
-    <script type="module" crossorigin src="/week8/assets/main-DNunwJSA.js"></script>
-    <link rel="stylesheet" crossorigin href="/week8/assets/main-m4SCXHwh.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>ZOBAA！</title>
+    <script type="module" crossorigin src="/week8/assets/main-WOgRN3vV.js"></script>
+    <link rel="stylesheet" crossorigin href="/week8/assets/main-C7POA9AB.css">
   </head>
   <body>
     <nav class="navbar bg-white py-3 py-lg-5 fixed-top">
@@ -209,7 +213,7 @@
           </div>
         </div>
       </section>
-      
+
       <section class="recommend-section py-10 py-lg-12">
         <div
           class="container text-white d-lg-flex justify-content-lg-between align-items-center mb-10 mb-lg-11"
@@ -341,7 +345,7 @@
       <!-- 第一站 -->
       <section class="station-section position-relative">
         <div class="deco-text d-none d-lg-block">
-          <img src="/week8/assets/deco-text-B5bqUxW-.svg" alt="deco-text-1">
+          <img src="/week8/assets/deco-text-B5bqUxW-.svg" alt="deco-text-1" />
         </div>
         <div class="container">
           <div
@@ -389,7 +393,7 @@
                   </div>
                 </div>
               </div>
-  
+
               <div class="row offset-row">
                 <div class="col-lg-6">
                   <div class="card">
@@ -423,45 +427,707 @@
         </div>
       </section>
       <!-- 旅行地圖 -->
-       <section class="bg-primary-10">
+      <section class="bg-primary-10">
         <div class="bg-section"></div>
         <div class="container py-10 py-lg-12">
-          <div class="d-flex justify-content-between align-items-center">
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-between align-items-start mb-10 mb-lg-11"
+          >
             <div class="d-flex flex-column">
               <div class="position-relative d-inline-block">
-                <img class="position-absolute top-0 start-100 translate-middle rotate-img ms-7 ms-lg-10" src="/week8/assets/deco-text-1-By36Tjr-.svg" alt="deco-text-1">
-                <h2 class="fs-3 fs-lg-10 mb-7">今年旅行的<br>靈感地圖</h2>
+                <img
+                  class="position-absolute top-0 start-50 translate-middle rotate-img ms-7 ms-lg-12"
+                  src="/week8/assets/deco-text-1-By36Tjr-.svg"
+                  alt="deco-text-1"
+                />
+                <h2 class="fs-3 fs-lg-10 mb-7">今年旅行的<br />靈感地圖</h2>
               </div>
-              <div class="d-flex overflow-x-auto">
-                <button class="btn btn-primary p-2 p-5 me-2">全部</button>
-                <button class="btn btn-light p-2 p-5 me-2">亞洲</button>
-                <button class="btn btn-light p-2 p-5 me-2">歐洲</button>
-                <button class="btn btn-light p-2 p-5 me-2">美洲</button>
-                <button class="btn btn-light p-2 p-5 me-2">大洋洲</button>
-                <button class="btn btn-light p-2 p-5">非洲</button>
+              <div class="d-flex overflow-x-auto flex-nowrap">
+                <button class="btn btn-primary p-2 p-5 me-2 flex-shrink-0">
+                  全部
+                </button>
+                <button class="btn btn-light p-2 p-5 me-2 flex-shrink-0">
+                  亞洲
+                </button>
+                <button class="btn btn-light p-2 p-5 me-2 flex-shrink-0">
+                  歐洲
+                </button>
+                <button class="btn btn-light p-2 p-5 me-2 flex-shrink-0">
+                  美洲
+                </button>
+                <button class="btn btn-light p-2 p-5 me-2 flex-shrink-0">
+                  大洋洲
+                </button>
+                <button class="btn btn-light p-2 p-5 flex-shrink-0">
+                  非洲
+                </button>
               </div>
             </div>
-            <div class="text-end text-primary fw-bold fs-6 d-none d-lg-block py-13">
+            <div
+              class="text-start text-lg-end text-primary fw-bold fs-8 fs-lg-6 py-13"
+            >
               <p class="mb-2">來自旅人搜尋、收藏與討論最多的目的地排行榜，</p>
               <p class="mb-7">一場風格與故事感兼具的靈感旅行，就從這裡開始。</p>
-              <div class="d-flex justify-content-end">
+              <div class="d-flex justify-content-end d-none d-lg-block">
                 <button type="button" class="btn btn-light p-5 me-2">
                   <span class="material-icons-outlined align-bottom"
-                >arrow_back</span>
+                    >arrow_back</span
+                  >
                 </button>
                 <button type="button" class="btn btn-light p-5">
                   <span class="material-icons-outlined align-bottom"
-                >arrow_forward</span>
+                    >arrow_forward</span
+                  >
                 </button>
               </div>
             </div>
-
-          </d-flex>
+          </div>
+          <!-- Map Card -->
+          <div class="d-flex flex-nowrap map-wrapper">
+            <!-- Card 1 -->
+            <div
+              class="card mb-3 flex-shrink-0 map-card me-5 position-relative"
+            >
+              <span class="map-tag">1</span>
+              <div class="row g-0">
+                <div class="col-md-4 px-5 pt-5 pb-2">
+                  <img
+                    src="/week8/assets/map-1-CaWFbhxG.png"
+                    class="img-fluid rounded"
+                    alt="Map"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body px-5 pb-5">
+                    <div class="mb-2">
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 me-2 d-inline-block"
+                        >亞洲</span
+                      >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 d-inline-block"
+                        >日本京都</span
+                      >
+                    </div>
+                    <h3 class="fs-3 fs-lg-2 fw-bold text-dark mb-2">
+                      走進四季交織的文化時光
+                    </h3>
+                    <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                      穿過紅葉與古寺的交錯，感受從櫻花盛開到秋楓染紅的日式浪漫。
+                    </p>
+                    <div
+                      class="d-lg-flex justify-content-lg-between align-items-start mb-10"
+                    >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 p-2 mb-2 mb-lg-0 me-lg-3 d-inline-block"
+                        >ZOBAA 建議</span
+                      >
+                      <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                        賞楓最佳時間是 11 月中旬，推薦清水寺和南禪寺一帶 🍁
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-dark rounded-pill d-flex justify-content-between align-items-center w-100 fs-8 fs-lg-7 py-lg-5 px-lg-6"
+                    >
+                      立即探索魅力古都
+                      <span
+                        class="material-icons-outlined align-bottom text-dark bg-light border border-dark rounded-circle p-1 p-lg-2"
+                        >arrow_forward</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div
+              class="card mb-3 flex-shrink-0 map-card me-5 position-relative"
+            >
+              <span class="map-tag">2</span>
+              <div class="row g-0">
+                <div class="col-md-4 px-5 pt-5 pb-2">
+                  <img
+                    src="/week8/assets/map-2-CindXB3l.png"
+                    class="img-fluid rounded h-100"
+                    alt="Map"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body px-5 pb-5">
+                    <div class="mb-2">
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 me-2 d-inline-block"
+                        >亞洲</span
+                      >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 d-inline-block"
+                        >南韓首爾</span
+                      >
+                    </div>
+                    <h3 class="fs-3 fs-lg-2 fw-bold text-dark mb-2">
+                      從街邊美食到韓劇場景
+                    </h3>
+                    <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                      白天在弘大小巷探店，夜晚登上南山塔俯瞰整座城市的閃爍。
+                    </p>
+                    <div
+                      class="d-lg-flex justify-content-lg-between align-items-start mb-10"
+                    >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 p-2 mb-2 mb-lg-0 me-lg-3 d-inline-block"
+                        >ZOBAA 建議</span
+                      >
+                      <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                        弘大周邊週五傍晚最熱鬧，小吃與街頭藝人齊發✨
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-dark rounded-pill d-flex justify-content-between align-items-center w-100 fs-8 fs-lg-7 py-lg-5 px-lg-6"
+                    >
+                      感受韓系風格日常
+                      <span
+                        class="material-icons-outlined align-bottom text-dark bg-light border border-dark rounded-circle p-1 p-lg-2"
+                        >arrow_forward</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div
+              class="card mb-3 flex-shrink-0 map-card me-5 position-relative"
+            >
+              <span class="map-tag">3</span>
+              <div class="row g-0">
+                <div class="col-md-4 px-5 pt-5 pb-2">
+                  <img
+                    src="/week8/assets/map-3-VKVUHlE9.png"
+                    class="img-fluid rounded h-100"
+                    alt="Map"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body px-5 pb-5">
+                    <div class="mb-2">
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 me-2 d-inline-block"
+                        >歐洲</span
+                      >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 d-inline-block"
+                        >法國巴黎</span
+                      >
+                    </div>
+                    <h3 class="fs-3 fs-lg-2 fw-bold text-dark mb-2">
+                      在藝術與咖啡香中迷路
+                    </h3>
+                    <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                      穿梭左岸書店與畫廊，任由麵包香與建築細節擁抱你的步伐。
+                    </p>
+                    <div
+                      class="d-lg-flex justify-content-lg-between align-items-start mb-10"
+                    >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 p-2 mb-2 mb-lg-0 me-lg-3 d-inline-block"
+                        >ZOBAA 建議</span
+                      >
+                      <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                        走進瑪黑區，最容易與巴黎風格不期而遇 ☕️
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-dark rounded-pill d-flex justify-content-between align-items-center w-100 fs-8 fs-lg-7 py-lg-5 px-lg-6"
+                    >
+                      立即探索魅力古都
+                      <span
+                        class="material-icons-outlined align-bottom text-dark bg-light border border-dark rounded-circle p-1 p-lg-2"
+                        >arrow_forward</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div
+              class="card mb-3 flex-shrink-0 map-card me-5 position-relative"
+            >
+              <span class="map-tag">4</span>
+              <div class="row g-0">
+                <div class="col-md-4 px-5 pt-5 pb-2">
+                  <img
+                    src="/week8/assets/map-4-DT9nHMWV.png"
+                    class="img-fluid rounded h-100"
+                    alt="Map"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body px-5 pb-5">
+                    <div class="mb-2">
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 me-2 d-inline-block"
+                        >大洋洲</span
+                      >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 d-inline-block"
+                        >澳洲雪梨</span
+                      >
+                    </div>
+                    <h3 class="fs-3 fs-lg-2 fw-bold text-dark mb-2">
+                      城市與大自然的交會
+                    </h3>
+                    <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                      清晨在海灘做瑜珈，午後漫步歌劇院，享受城市的節奏與野性的呼喚。
+                    </p>
+                    <div
+                      class="d-lg-flex justify-content-lg-between align-items-start mb-10"
+                    >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 p-2 mb-2 mb-lg-0 me-lg-3 d-inline-block"
+                        >ZOBAA 建議</span
+                      >
+                      <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                        別錯過傍晚在雪梨港看日落＋欣賞歌劇院夜燈 ✨
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-dark rounded-pill d-flex justify-content-between align-items-center w-100 fs-8 fs-lg-7 py-lg-5 px-lg-6"
+                    >
+                      立即探索魅力古都
+                      <span
+                        class="material-icons-outlined align-bottom text-dark bg-light border border-dark rounded-circle p-1 p-lg-2"
+                        >arrow_forward</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 5 -->
+            <div
+              class="card mb-3 flex-shrink-0 map-card me-5 position-relative"
+            >
+              <span class="map-tag">5</span>
+              <div class="row g-0">
+                <div class="col-md-4 px-5 pt-5 pb-2">
+                  <img
+                    src="/week8/assets/map-5-BNCblw4l.png"
+                    class="img-fluid rounded h-100"
+                    alt="Map"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body px-5 pb-5">
+                    <div class="mb-2">
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 me-2 d-inline-block"
+                        >非洲</span
+                      >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 py-2 px-5 d-inline-block"
+                        >埃及開羅</span
+                      >
+                    </div>
+                    <h3 class="fs-3 fs-lg-2 fw-bold text-dark mb-2">
+                      穿越千年時光的沙漠冒險
+                    </h3>
+                    <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                      乘著駱駝走過古老遺跡，抬頭仰望太陽神的光芒，在歷史與傳說之間迷失。
+                    </p>
+                    <div
+                      class="d-lg-flex justify-content-lg-between align-items-start mb-10"
+                    >
+                      <span
+                        class="badge bg-primary-10 fs-8 fs-lg-7 fw-bold text-primary rounded-1 p-2 mb-2 mb-lg-0 me-lg-3 d-inline-block"
+                        >ZOBAA 建議</span
+                      >
+                      <p class="fs-8 fs-lg-7 fw-normal text-neutral-80 mb-7">
+                        建議早上 8 點前到吉薩金字塔，避開人潮與烈日 ☀️
+                      </p>
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-dark rounded-pill d-flex justify-content-between align-items-center w-100 fs-8 fs-lg-7 py-lg-5 px-lg-6"
+                    >
+                      立即探索魅力古都
+                      <span
+                        class="material-icons-outlined align-bottom text-dark bg-light border border-dark rounded-circle p-1 p-lg-2"
+                        >arrow_forward</span
+                      >
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="bg-section-bottom"></div>
-       </section>
+      </section>
+      <!-- search locationn -->
+      <section class="search-local">
+        <div class="container py-10 py-lg-12">
+          <div class="position-relative">
+            <img
+              class="local-tag"
+              src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/b73ea8a74c1ac1f404c8b9e08555ad2f7b7f20e5/2025-week8/index/bg-%23.svg"
+              alt="bg-#"
+            />
+            <h2 class="fs-3 fs-lg-12 text-primary fw-bold mb-10 mb-lg-11">
+              搜尋墨爾本嗎？<br />來點行程參考！
+            </h2>
+          </div>
+          <div class="swiper-wrapper-area">
+            <div class="swiper">
+              <ul class="swiper-wrapper p-0">
+                <!-- slide 1 -->
+                <li class="swiper-slide">
+                  <img
+                    src="/week8/assets/journey-1-LwwSLAz4.png"
+                    alt="journey"
+                    class="img-fluid rounded-3 mb-5 position-relative"
+                  />
+                  <img class="icon-favorite" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffffff'%3e%3cpath%20d='m480-120-58-52q-101-91-167-157T150-447.5Q111-500%2095.5-544T80-634q0-94%2063-157t157-63q52%200%2099%2022t81%2062q34-40%2081-62t99-22q94%200%20157%2063t63%20157q0%2046-15.5%2090T810-447.5Q771-395%20705-329T538-172l-58%2052Zm0-108q96-86%20158-147.5t98-107q36-45.5%2050-81t14-70.5q0-60-40-100t-100-40q-47%200-87%2026.5T518-680h-76q-15-41-55-67.5T300-774q-60%200-100%2040t-40%20100q0%2035%2014%2070.5t50%2081q36%2045.5%2098%20107T480-228Zm0-273Z'/%3e%3c/svg%3e" alt="favorite">
+                  <h3 class="fs-7 fw-bold mb-2">
+                    【獨家優惠】布萊頓彩色小屋＋森林蒸汽火車一日遊
+                  </h3>
+                  <div class="mb-2">
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2 me-5"
+                      >即買即用</span
+                    >
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2"
+                      >5 天前可免費取消</span
+                    >
+                  </div>
+                  <div class="border-bottom pb-5 mb-5">
+                    <img
+                      class="icon-star align-bottom me-1"
+                      src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M5.99992%209.53617L2.73742%2011.2177C2.71272%2011.2304%202.68497%2011.236%202.65727%2011.2339C2.62957%2011.2318%202.60301%2011.222%202.58053%2011.2057C2.55806%2011.1893%202.54056%2011.1671%202.52999%2011.1414C2.51942%2011.1157%202.51619%2011.0876%202.52067%2011.0602L3.11317%207.43767L0.504665%204.85617C0.484537%204.83686%200.470256%204.81226%200.463459%204.78521C0.456663%204.75815%200.457624%204.72973%200.466234%204.70319C0.474844%204.67666%200.490755%204.65308%200.512143%204.63517C0.53353%204.61726%200.559531%204.60574%200.587165%204.60192L4.21491%204.04467L5.86492%200.767172C5.87736%200.742211%205.89651%200.721213%205.92022%200.706535C5.94394%200.691857%205.97128%200.684082%205.99917%200.684082C6.02705%200.684082%206.05439%200.691857%206.07811%200.706535C6.10182%200.721213%206.12097%200.742211%206.13342%200.767172L7.78341%204.04467L11.4112%204.60192C11.4386%204.60601%2011.4644%204.61767%2011.4856%204.63562C11.5068%204.65356%2011.5226%204.67707%2011.5312%204.70349C11.5398%204.72991%2011.5408%204.7582%2011.5342%204.78517C11.5275%204.81215%2011.5135%204.83674%2011.4937%204.85617L8.88741%207.43842L9.47841%2011.0609C9.48272%2011.0883%209.47938%2011.1163%209.46874%2011.1419C9.4581%2011.1675%209.44059%2011.1896%209.41814%2011.2058C9.3957%2011.222%209.3692%2011.2317%209.34158%2011.2338C9.31396%2011.2359%209.2863%2011.2303%209.26166%2011.2177L5.99992%209.53617Z'%20fill='%23F6BD2B'/%3e%3c/svg%3e"
+                      alt="star"
+                    />
+                    <span class="fs-8 text-neutral-80 me-1">4.2</span>
+                    <span class="fs-8 text-neutral-60 me-3">(333)</span>
+                    <span class="fs-8 text-neutral-80 border-1 ps-3"
+                      >500+ 個已訂購</span
+                    >
+                  </div>
+                  <h4 class="fs-6 fw-bold text-primary">
+                    NT$ 4,220<br />
+                    <span class="cut-price">NT$ 5,220</span>
+                  </h4>
+                </li>
+                <!-- slide 2 -->
+                <li class="swiper-slide">
+                  <img
+                    src="/week8/assets/journey-2-rsXkoba7.png"
+                    alt="journey"
+                    class="img-fluid rounded-3 mb-5 position-relative"
+                  />
+                  <img class="icon-favorite" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffffff'%3e%3cpath%20d='m480-120-58-52q-101-91-167-157T150-447.5Q111-500%2095.5-544T80-634q0-94%2063-157t157-63q52%200%2099%2022t81%2062q34-40%2081-62t99-22q94%200%20157%2063t63%20157q0%2046-15.5%2090T810-447.5Q771-395%20705-329T538-172l-58%2052Zm0-108q96-86%20158-147.5t98-107q36-45.5%2050-81t14-70.5q0-60-40-100t-100-40q-47%200-87%2026.5T518-680h-76q-15-41-55-67.5T300-774q-60%200-100%2040t-40%20100q0%2035%2014%2070.5t50%2081q36%2045.5%2098%20107T480-228Zm0-273Z'/%3e%3c/svg%3e" alt="favorite">
+                  <h3 class="fs-7 fw-bold mb-2">
+                    無尾熊動物園＋企鵝歸巢雙享之旅
+                  </h3>
+                  <div class="mb-2">
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2 me-5"
+                      >即買即用</span
+                    >
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2"
+                      >7 天前可免費取消</span
+                    >
+                  </div>
+                  <div class="border-bottom pb-5 mb-5">
+                    <img
+                      class="icon-star align-bottom me-1"
+                      src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M5.99992%209.53617L2.73742%2011.2177C2.71272%2011.2304%202.68497%2011.236%202.65727%2011.2339C2.62957%2011.2318%202.60301%2011.222%202.58053%2011.2057C2.55806%2011.1893%202.54056%2011.1671%202.52999%2011.1414C2.51942%2011.1157%202.51619%2011.0876%202.52067%2011.0602L3.11317%207.43767L0.504665%204.85617C0.484537%204.83686%200.470256%204.81226%200.463459%204.78521C0.456663%204.75815%200.457624%204.72973%200.466234%204.70319C0.474844%204.67666%200.490755%204.65308%200.512143%204.63517C0.53353%204.61726%200.559531%204.60574%200.587165%204.60192L4.21491%204.04467L5.86492%200.767172C5.87736%200.742211%205.89651%200.721213%205.92022%200.706535C5.94394%200.691857%205.97128%200.684082%205.99917%200.684082C6.02705%200.684082%206.05439%200.691857%206.07811%200.706535C6.10182%200.721213%206.12097%200.742211%206.13342%200.767172L7.78341%204.04467L11.4112%204.60192C11.4386%204.60601%2011.4644%204.61767%2011.4856%204.63562C11.5068%204.65356%2011.5226%204.67707%2011.5312%204.70349C11.5398%204.72991%2011.5408%204.7582%2011.5342%204.78517C11.5275%204.81215%2011.5135%204.83674%2011.4937%204.85617L8.88741%207.43842L9.47841%2011.0609C9.48272%2011.0883%209.47938%2011.1163%209.46874%2011.1419C9.4581%2011.1675%209.44059%2011.1896%209.41814%2011.2058C9.3957%2011.222%209.3692%2011.2317%209.34158%2011.2338C9.31396%2011.2359%209.2863%2011.2303%209.26166%2011.2177L5.99992%209.53617Z'%20fill='%23F6BD2B'/%3e%3c/svg%3e"
+                      alt="star"
+                    />
+                    <span class="fs-8 text-neutral-80 me-1">4.2</span>
+                    <span class="fs-8 text-neutral-60 me-3">(333)</span>
+                    <span class="fs-8 text-neutral-80 border-1 ps-3"
+                      >500+ 個已訂購</span
+                    >
+                  </div>
+                  <h4 class="fs-6 fw-bold text-primary">
+                    NT$ 4,220<br />
+                    <span class="cut-price">NT$ 5,220</span>
+                  </h4>
+                </li>
+                <!-- slide 3 -->
+                <li class="swiper-slide">
+                  <img
+                    src="/week8/assets/journey-3-Cw8zOZzr.png"
+                    alt="journey"
+                    class="img-fluid rounded-3 mb-5 position-relative"
+                  />
+                  <img class="icon-favorite" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffffff'%3e%3cpath%20d='m480-120-58-52q-101-91-167-157T150-447.5Q111-500%2095.5-544T80-634q0-94%2063-157t157-63q52%200%2099%2022t81%2062q34-40%2081-62t99-22q94%200%20157%2063t63%20157q0%2046-15.5%2090T810-447.5Q771-395%20705-329T538-172l-58%2052Zm0-108q96-86%20158-147.5t98-107q36-45.5%2050-81t14-70.5q0-60-40-100t-100-40q-47%200-87%2026.5T518-680h-76q-15-41-55-67.5T300-774q-60%200-100%2040t-40%20100q0%2035%2014%2070.5t50%2081q36%2045.5%2098%20107T480-228Zm0-273Z'/%3e%3c/svg%3e" alt="favorite">
+                  <h3 class="fs-7 fw-bold mb-2">
+                    大洋路經典一日遊｜中文導覽！體驗澳洲最夢幻的海岸線
+                  </h3>
+                  <div class="mb-2">
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2 me-5"
+                      >中文導覽</span
+                    >
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2"
+                      >5 天前可免費取消</span
+                    >
+                  </div>
+                  <div class="border-bottom pb-5 mb-5">
+                    <img
+                      class="icon-star align-bottom me-1"
+                      src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M5.99992%209.53617L2.73742%2011.2177C2.71272%2011.2304%202.68497%2011.236%202.65727%2011.2339C2.62957%2011.2318%202.60301%2011.222%202.58053%2011.2057C2.55806%2011.1893%202.54056%2011.1671%202.52999%2011.1414C2.51942%2011.1157%202.51619%2011.0876%202.52067%2011.0602L3.11317%207.43767L0.504665%204.85617C0.484537%204.83686%200.470256%204.81226%200.463459%204.78521C0.456663%204.75815%200.457624%204.72973%200.466234%204.70319C0.474844%204.67666%200.490755%204.65308%200.512143%204.63517C0.53353%204.61726%200.559531%204.60574%200.587165%204.60192L4.21491%204.04467L5.86492%200.767172C5.87736%200.742211%205.89651%200.721213%205.92022%200.706535C5.94394%200.691857%205.97128%200.684082%205.99917%200.684082C6.02705%200.684082%206.05439%200.691857%206.07811%200.706535C6.10182%200.721213%206.12097%200.742211%206.13342%200.767172L7.78341%204.04467L11.4112%204.60192C11.4386%204.60601%2011.4644%204.61767%2011.4856%204.63562C11.5068%204.65356%2011.5226%204.67707%2011.5312%204.70349C11.5398%204.72991%2011.5408%204.7582%2011.5342%204.78517C11.5275%204.81215%2011.5135%204.83674%2011.4937%204.85617L8.88741%207.43842L9.47841%2011.0609C9.48272%2011.0883%209.47938%2011.1163%209.46874%2011.1419C9.4581%2011.1675%209.44059%2011.1896%209.41814%2011.2058C9.3957%2011.222%209.3692%2011.2317%209.34158%2011.2338C9.31396%2011.2359%209.2863%2011.2303%209.26166%2011.2177L5.99992%209.53617Z'%20fill='%23F6BD2B'/%3e%3c/svg%3e"
+                      alt="star"
+                    />
+                    <span class="fs-8 text-neutral-80 me-1">4.2</span>
+                    <span class="fs-8 text-neutral-60 me-3">(333)</span>
+                    <span class="fs-8 text-neutral-80 border-1 ps-3"
+                      >500+ 個已訂購</span
+                    >
+                  </div>
+                  <h4 class="fs-6 fw-bold text-primary">
+                    NT$ 3,690<br />
+                    <span class="cut-price">NT$ 4,500</span>
+                  </h4>
+                </li>
+                <!-- slide 4 -->
+                <li class="swiper-slide">
+                  <img
+                    src="/week8/assets/journey-4-DC33musc.png"
+                    alt="journey"
+                    class="img-fluid rounded-3 mb-5 position-relative"
+                  />
+                  <img class="icon-favorite" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffffff'%3e%3cpath%20d='m480-120-58-52q-101-91-167-157T150-447.5Q111-500%2095.5-544T80-634q0-94%2063-157t157-63q52%200%2099%2022t81%2062q34-40%2081-62t99-22q94%200%20157%2063t63%20157q0%2046-15.5%2090T810-447.5Q771-395%20705-329T538-172l-58%2052Zm0-108q96-86%20158-147.5t98-107q36-45.5%2050-81t14-70.5q0-60-40-100t-100-40q-47%200-87%2026.5T518-680h-76q-15-41-55-67.5T300-774q-60%200-100%2040t-40%20100q0%2035%2014%2070.5t50%2081q36%2045.5%2098%20107T480-228Zm0-273Z'/%3e%3c/svg%3e" alt="favorite">
+                  <h3 class="fs-7 fw-bold mb-2">
+                    墨爾本市區導覽｜壁畫巷＋隱藏咖啡廳之旅，體驗本地咖啡文化、隱藏小巷拍照
+                  </h3>
+                  <div class="mb-2">
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2 me-5"
+                      >專業導覽</span
+                    >
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2"
+                      >3 天前可免費取消</span
+                    >
+                  </div>
+                  <div class="border-bottom pb-5 mb-5">
+                    <img
+                      class="icon-star align-bottom me-1"
+                      src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M5.99992%209.53617L2.73742%2011.2177C2.71272%2011.2304%202.68497%2011.236%202.65727%2011.2339C2.62957%2011.2318%202.60301%2011.222%202.58053%2011.2057C2.55806%2011.1893%202.54056%2011.1671%202.52999%2011.1414C2.51942%2011.1157%202.51619%2011.0876%202.52067%2011.0602L3.11317%207.43767L0.504665%204.85617C0.484537%204.83686%200.470256%204.81226%200.463459%204.78521C0.456663%204.75815%200.457624%204.72973%200.466234%204.70319C0.474844%204.67666%200.490755%204.65308%200.512143%204.63517C0.53353%204.61726%200.559531%204.60574%200.587165%204.60192L4.21491%204.04467L5.86492%200.767172C5.87736%200.742211%205.89651%200.721213%205.92022%200.706535C5.94394%200.691857%205.97128%200.684082%205.99917%200.684082C6.02705%200.684082%206.05439%200.691857%206.07811%200.706535C6.10182%200.721213%206.12097%200.742211%206.13342%200.767172L7.78341%204.04467L11.4112%204.60192C11.4386%204.60601%2011.4644%204.61767%2011.4856%204.63562C11.5068%204.65356%2011.5226%204.67707%2011.5312%204.70349C11.5398%204.72991%2011.5408%204.7582%2011.5342%204.78517C11.5275%204.81215%2011.5135%204.83674%2011.4937%204.85617L8.88741%207.43842L9.47841%2011.0609C9.48272%2011.0883%209.47938%2011.1163%209.46874%2011.1419C9.4581%2011.1675%209.44059%2011.1896%209.41814%2011.2058C9.3957%2011.222%209.3692%2011.2317%209.34158%2011.2338C9.31396%2011.2359%209.2863%2011.2303%209.26166%2011.2177L5.99992%209.53617Z'%20fill='%23F6BD2B'/%3e%3c/svg%3e"
+                      alt="star"
+                    />
+                    <span class="fs-8 text-neutral-80 me-1">4.2</span>
+                    <span class="fs-8 text-neutral-60 me-3">(333)</span>
+                    <span class="fs-8 text-neutral-80 border-1 ps-3"
+                      >500+ 個已訂購</span
+                    >
+                  </div>
+                  <h4 class="fs-6 fw-bold text-primary">
+                    NT$1,280<br />
+                    <span class="cut-price">NT$ 2,480</span>
+                  </h4>
+                </li>
+                <!-- slide 1 -->
+                <li class="swiper-slide">
+                  <img
+                    src="/week8/assets/journey-1-LwwSLAz4.png"
+                    alt="journey"
+                    class="img-fluid rounded-3 mb-5 position-relative"
+                  />
+                  <img class="icon-favorite" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffffff'%3e%3cpath%20d='m480-120-58-52q-101-91-167-157T150-447.5Q111-500%2095.5-544T80-634q0-94%2063-157t157-63q52%200%2099%2022t81%2062q34-40%2081-62t99-22q94%200%20157%2063t63%20157q0%2046-15.5%2090T810-447.5Q771-395%20705-329T538-172l-58%2052Zm0-108q96-86%20158-147.5t98-107q36-45.5%2050-81t14-70.5q0-60-40-100t-100-40q-47%200-87%2026.5T518-680h-76q-15-41-55-67.5T300-774q-60%200-100%2040t-40%20100q0%2035%2014%2070.5t50%2081q36%2045.5%2098%20107T480-228Zm0-273Z'/%3e%3c/svg%3e" alt="favorite">
+                  <h3 class="fs-7 fw-bold mb-2">
+                    【獨家優惠】布萊頓彩色小屋＋森林蒸汽火車一日遊
+                  </h3>
+                  <div class="mb-2">
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2 me-5"
+                      >即買即用</span
+                    >
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2"
+                      >5 天前可免費取消</span
+                    >
+                  </div>
+                  <div class="border-bottom pb-5 mb-5">
+                    <img
+                      class="icon-star align-bottom me-1"
+                      src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M5.99992%209.53617L2.73742%2011.2177C2.71272%2011.2304%202.68497%2011.236%202.65727%2011.2339C2.62957%2011.2318%202.60301%2011.222%202.58053%2011.2057C2.55806%2011.1893%202.54056%2011.1671%202.52999%2011.1414C2.51942%2011.1157%202.51619%2011.0876%202.52067%2011.0602L3.11317%207.43767L0.504665%204.85617C0.484537%204.83686%200.470256%204.81226%200.463459%204.78521C0.456663%204.75815%200.457624%204.72973%200.466234%204.70319C0.474844%204.67666%200.490755%204.65308%200.512143%204.63517C0.53353%204.61726%200.559531%204.60574%200.587165%204.60192L4.21491%204.04467L5.86492%200.767172C5.87736%200.742211%205.89651%200.721213%205.92022%200.706535C5.94394%200.691857%205.97128%200.684082%205.99917%200.684082C6.02705%200.684082%206.05439%200.691857%206.07811%200.706535C6.10182%200.721213%206.12097%200.742211%206.13342%200.767172L7.78341%204.04467L11.4112%204.60192C11.4386%204.60601%2011.4644%204.61767%2011.4856%204.63562C11.5068%204.65356%2011.5226%204.67707%2011.5312%204.70349C11.5398%204.72991%2011.5408%204.7582%2011.5342%204.78517C11.5275%204.81215%2011.5135%204.83674%2011.4937%204.85617L8.88741%207.43842L9.47841%2011.0609C9.48272%2011.0883%209.47938%2011.1163%209.46874%2011.1419C9.4581%2011.1675%209.44059%2011.1896%209.41814%2011.2058C9.3957%2011.222%209.3692%2011.2317%209.34158%2011.2338C9.31396%2011.2359%209.2863%2011.2303%209.26166%2011.2177L5.99992%209.53617Z'%20fill='%23F6BD2B'/%3e%3c/svg%3e"
+                      alt="star"
+                    />
+                    <span class="fs-8 text-neutral-80 me-1">4.2</span>
+                    <span class="fs-8 text-neutral-60 me-3">(333)</span>
+                    <span class="fs-8 text-neutral-80 border-1 ps-3"
+                      >500+ 個已訂購</span
+                    >
+                  </div>
+                  <h4 class="fs-6 fw-bold text-primary">
+                    NT$ 4,220<br />
+                    <span class="cut-price">NT$ 5,220</span>
+                  </h4>
+                </li>
+                <!-- slide 2 -->
+                <li class="swiper-slide">
+                  <img
+                    src="/week8/assets/journey-2-rsXkoba7.png"
+                    alt="journey"
+                    class="img-fluid rounded-3 mb-5 position-relative"
+                  />
+                  <img class="icon-favorite" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffffff'%3e%3cpath%20d='m480-120-58-52q-101-91-167-157T150-447.5Q111-500%2095.5-544T80-634q0-94%2063-157t157-63q52%200%2099%2022t81%2062q34-40%2081-62t99-22q94%200%20157%2063t63%20157q0%2046-15.5%2090T810-447.5Q771-395%20705-329T538-172l-58%2052Zm0-108q96-86%20158-147.5t98-107q36-45.5%2050-81t14-70.5q0-60-40-100t-100-40q-47%200-87%2026.5T518-680h-76q-15-41-55-67.5T300-774q-60%200-100%2040t-40%20100q0%2035%2014%2070.5t50%2081q36%2045.5%2098%20107T480-228Zm0-273Z'/%3e%3c/svg%3e" alt="favorite">
+                  <h3 class="fs-7 fw-bold mb-2">
+                    無尾熊動物園＋企鵝歸巢雙享之旅
+                  </h3>
+                  <div class="mb-2">
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2 me-5"
+                      >即買即用</span
+                    >
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2"
+                      >7 天前可免費取消</span
+                    >
+                  </div>
+                  <div class="border-bottom pb-5 mb-5">
+                    <img
+                      class="icon-star align-bottom me-1"
+                      src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M5.99992%209.53617L2.73742%2011.2177C2.71272%2011.2304%202.68497%2011.236%202.65727%2011.2339C2.62957%2011.2318%202.60301%2011.222%202.58053%2011.2057C2.55806%2011.1893%202.54056%2011.1671%202.52999%2011.1414C2.51942%2011.1157%202.51619%2011.0876%202.52067%2011.0602L3.11317%207.43767L0.504665%204.85617C0.484537%204.83686%200.470256%204.81226%200.463459%204.78521C0.456663%204.75815%200.457624%204.72973%200.466234%204.70319C0.474844%204.67666%200.490755%204.65308%200.512143%204.63517C0.53353%204.61726%200.559531%204.60574%200.587165%204.60192L4.21491%204.04467L5.86492%200.767172C5.87736%200.742211%205.89651%200.721213%205.92022%200.706535C5.94394%200.691857%205.97128%200.684082%205.99917%200.684082C6.02705%200.684082%206.05439%200.691857%206.07811%200.706535C6.10182%200.721213%206.12097%200.742211%206.13342%200.767172L7.78341%204.04467L11.4112%204.60192C11.4386%204.60601%2011.4644%204.61767%2011.4856%204.63562C11.5068%204.65356%2011.5226%204.67707%2011.5312%204.70349C11.5398%204.72991%2011.5408%204.7582%2011.5342%204.78517C11.5275%204.81215%2011.5135%204.83674%2011.4937%204.85617L8.88741%207.43842L9.47841%2011.0609C9.48272%2011.0883%209.47938%2011.1163%209.46874%2011.1419C9.4581%2011.1675%209.44059%2011.1896%209.41814%2011.2058C9.3957%2011.222%209.3692%2011.2317%209.34158%2011.2338C9.31396%2011.2359%209.2863%2011.2303%209.26166%2011.2177L5.99992%209.53617Z'%20fill='%23F6BD2B'/%3e%3c/svg%3e"
+                      alt="star"
+                    />
+                    <span class="fs-8 text-neutral-80 me-1">4.2</span>
+                    <span class="fs-8 text-neutral-60 me-3">(333)</span>
+                    <span class="fs-8 text-neutral-80 border-1 ps-3"
+                      >500+ 個已訂購</span
+                    >
+                  </div>
+                  <h4 class="fs-6 fw-bold text-primary">
+                    NT$ 4,220<br />
+                    <span class="cut-price">NT$ 5,220</span>
+                  </h4>
+                </li>
+                <!-- slide 3 -->
+                <li class="swiper-slide">
+                  <img
+                    src="/week8/assets/journey-3-Cw8zOZzr.png"
+                    alt="journey"
+                    class="img-fluid rounded-3 mb-5 position-relative"
+                  />
+                  <img class="icon-favorite" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffffff'%3e%3cpath%20d='m480-120-58-52q-101-91-167-157T150-447.5Q111-500%2095.5-544T80-634q0-94%2063-157t157-63q52%200%2099%2022t81%2062q34-40%2081-62t99-22q94%200%20157%2063t63%20157q0%2046-15.5%2090T810-447.5Q771-395%20705-329T538-172l-58%2052Zm0-108q96-86%20158-147.5t98-107q36-45.5%2050-81t14-70.5q0-60-40-100t-100-40q-47%200-87%2026.5T518-680h-76q-15-41-55-67.5T300-774q-60%200-100%2040t-40%20100q0%2035%2014%2070.5t50%2081q36%2045.5%2098%20107T480-228Zm0-273Z'/%3e%3c/svg%3e" alt="favorite">
+                  <h3 class="fs-7 fw-bold mb-2">
+                    大洋路經典一日遊｜中文導覽！體驗澳洲最夢幻的海岸線
+                  </h3>
+                  <div class="mb-2">
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2 me-5"
+                      >中文導覽</span
+                    >
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2"
+                      >5 天前可免費取消</span
+                    >
+                  </div>
+                  <div class="border-bottom pb-5 mb-5">
+                    <img
+                      class="icon-star align-bottom me-1"
+                      src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M5.99992%209.53617L2.73742%2011.2177C2.71272%2011.2304%202.68497%2011.236%202.65727%2011.2339C2.62957%2011.2318%202.60301%2011.222%202.58053%2011.2057C2.55806%2011.1893%202.54056%2011.1671%202.52999%2011.1414C2.51942%2011.1157%202.51619%2011.0876%202.52067%2011.0602L3.11317%207.43767L0.504665%204.85617C0.484537%204.83686%200.470256%204.81226%200.463459%204.78521C0.456663%204.75815%200.457624%204.72973%200.466234%204.70319C0.474844%204.67666%200.490755%204.65308%200.512143%204.63517C0.53353%204.61726%200.559531%204.60574%200.587165%204.60192L4.21491%204.04467L5.86492%200.767172C5.87736%200.742211%205.89651%200.721213%205.92022%200.706535C5.94394%200.691857%205.97128%200.684082%205.99917%200.684082C6.02705%200.684082%206.05439%200.691857%206.07811%200.706535C6.10182%200.721213%206.12097%200.742211%206.13342%200.767172L7.78341%204.04467L11.4112%204.60192C11.4386%204.60601%2011.4644%204.61767%2011.4856%204.63562C11.5068%204.65356%2011.5226%204.67707%2011.5312%204.70349C11.5398%204.72991%2011.5408%204.7582%2011.5342%204.78517C11.5275%204.81215%2011.5135%204.83674%2011.4937%204.85617L8.88741%207.43842L9.47841%2011.0609C9.48272%2011.0883%209.47938%2011.1163%209.46874%2011.1419C9.4581%2011.1675%209.44059%2011.1896%209.41814%2011.2058C9.3957%2011.222%209.3692%2011.2317%209.34158%2011.2338C9.31396%2011.2359%209.2863%2011.2303%209.26166%2011.2177L5.99992%209.53617Z'%20fill='%23F6BD2B'/%3e%3c/svg%3e"
+                      alt="star"
+                    />
+                    <span class="fs-8 text-neutral-80 me-1">4.2</span>
+                    <span class="fs-8 text-neutral-60 me-3">(333)</span>
+                    <span class="fs-8 text-neutral-80 border-1 ps-3"
+                      >500+ 個已訂購</span
+                    >
+                  </div>
+                  <h4 class="fs-6 fw-bold text-primary">
+                    NT$ 3,690<br />
+                    <span class="cut-price">NT$ 4,500</span>
+                  </h4>
+                </li>
+                <!-- slide 4 -->
+                <li class="swiper-slide">
+                  <img
+                    src="/week8/assets/journey-4-DC33musc.png"
+                    alt="journey"
+                    class="img-fluid rounded-3 mb-5 position-relative"
+                  />
+                  <img class="icon-favorite" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%20-960%20960%20960'%20width='24px'%20fill='%23ffffff'%3e%3cpath%20d='m480-120-58-52q-101-91-167-157T150-447.5Q111-500%2095.5-544T80-634q0-94%2063-157t157-63q52%200%2099%2022t81%2062q34-40%2081-62t99-22q94%200%20157%2063t63%20157q0%2046-15.5%2090T810-447.5Q771-395%20705-329T538-172l-58%2052Zm0-108q96-86%20158-147.5t98-107q36-45.5%2050-81t14-70.5q0-60-40-100t-100-40q-47%200-87%2026.5T518-680h-76q-15-41-55-67.5T300-774q-60%200-100%2040t-40%20100q0%2035%2014%2070.5t50%2081q36%2045.5%2098%20107T480-228Zm0-273Z'/%3e%3c/svg%3e" alt="favorite">
+                  <h3 class="fs-7 fw-bold mb-2">
+                    墨爾本市區導覽｜壁畫巷＋隱藏咖啡廳之旅，體驗本地咖啡文化、隱藏小巷拍照
+                  </h3>
+                  <div class="mb-2">
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2 me-5"
+                      >專業導覽</span
+                    >
+                    <span
+                      class="fs-8 fw-normal text-primary bg-primary-10 rounded-1 py-1 px-2"
+                      >3 天前可免費取消</span
+                    >
+                  </div>
+                  <div class="border-bottom pb-5 mb-5">
+                    <img
+                      class="icon-star align-bottom me-1"
+                      src="data:image/svg+xml,%3csvg%20width='12'%20height='12'%20viewBox='0%200%2012%2012'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M5.99992%209.53617L2.73742%2011.2177C2.71272%2011.2304%202.68497%2011.236%202.65727%2011.2339C2.62957%2011.2318%202.60301%2011.222%202.58053%2011.2057C2.55806%2011.1893%202.54056%2011.1671%202.52999%2011.1414C2.51942%2011.1157%202.51619%2011.0876%202.52067%2011.0602L3.11317%207.43767L0.504665%204.85617C0.484537%204.83686%200.470256%204.81226%200.463459%204.78521C0.456663%204.75815%200.457624%204.72973%200.466234%204.70319C0.474844%204.67666%200.490755%204.65308%200.512143%204.63517C0.53353%204.61726%200.559531%204.60574%200.587165%204.60192L4.21491%204.04467L5.86492%200.767172C5.87736%200.742211%205.89651%200.721213%205.92022%200.706535C5.94394%200.691857%205.97128%200.684082%205.99917%200.684082C6.02705%200.684082%206.05439%200.691857%206.07811%200.706535C6.10182%200.721213%206.12097%200.742211%206.13342%200.767172L7.78341%204.04467L11.4112%204.60192C11.4386%204.60601%2011.4644%204.61767%2011.4856%204.63562C11.5068%204.65356%2011.5226%204.67707%2011.5312%204.70349C11.5398%204.72991%2011.5408%204.7582%2011.5342%204.78517C11.5275%204.81215%2011.5135%204.83674%2011.4937%204.85617L8.88741%207.43842L9.47841%2011.0609C9.48272%2011.0883%209.47938%2011.1163%209.46874%2011.1419C9.4581%2011.1675%209.44059%2011.1896%209.41814%2011.2058C9.3957%2011.222%209.3692%2011.2317%209.34158%2011.2338C9.31396%2011.2359%209.2863%2011.2303%209.26166%2011.2177L5.99992%209.53617Z'%20fill='%23F6BD2B'/%3e%3c/svg%3e"
+                      alt="star"
+                    />
+                    <span class="fs-8 text-neutral-80 me-1">4.2</span>
+                    <span class="fs-8 text-neutral-60 me-3">(333)</span>
+                    <span class="fs-8 text-neutral-80 border-1 ps-3"
+                      >500+ 個已訂購</span
+                    >
+                  </div>
+                  <h4 class="fs-6 fw-bold text-primary">
+                    NT$1,280<br />
+                    <span class="cut-price">NT$ 2,480</span>
+                  </h4>
+                </li>
+              </ul>
+            </div>
+            <div class="d-none  d-lg-block">
+              <div class="swiper-button-prev shadow">
+                <span class="material-icons-outlined align-bottom"
+                  >arrow_back</span
+                >
+              </div>
+              <div class="swiper-button-next shadow">
+                <span class="material-icons-outlined align-bottom"
+                  >arrow_forward</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      new Swiper(".swiper", {
+        spaceBetween: 24,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        grid: {
+          rows: 1,
+          fill: "row",
+        },
+        slidesPerView: 1.2,
+        breakpoints: {
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 24,
+          },
+        },
+      });
+    </script>
   </body>
 </html>
