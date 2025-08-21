@@ -1,0 +1,12 @@
+.location-section {
+    padding-top: 128px;
+    padding-left: 12px;
+    padding-right: 12px;
+    @include media-breakpoint-up(lg) {
+        padding-top: 168px;
+    }
+}
+
+.breadcrumb-link {
+    color: $primary;
+}

@@ -4,12 +4,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
-  padding-top: 48px;
+  padding-top: 136px;
   padding-left: 12px;
   padding-right: 12px;
-  margin-top: 64px;
   @include media-breakpoint-up(lg) {
-    padding-top: 212px;
+    padding-top: 300px;
   }
 }
 
