@@ -243,3 +243,36 @@ li.swiper-slide {
   overflow: hidden;
   width: 300px;
 }
+
+// 跑馬燈
+.marquee {
+  font-family: Poppins;
+  overflow: hidden;
+  p {
+    color: #f3eeec;
+    font-size: 130px;
+    font-weight: bold;
+    white-space: nowrap;
+    
+    animation-name: marquee;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    @keyframes marquee {
+      from {
+        transform: translateX(-25%);
+      }
+      to {
+        transform: translateX(0%);
+      }
+    }
+  }
+}
+
+.card-img {
+  border-radius: 24px;
+  @include media-breakpoint-up(lg) {
+    border-radius: 32px;
+  }
+}
