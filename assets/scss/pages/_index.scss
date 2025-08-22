@@ -145,7 +145,7 @@
 }
 
 .map-card {
-  width: 100%;
+  width: 80%;
   flex-shrink: 0;
 }
 
@@ -164,8 +164,8 @@
   width: 280px;
   height: 200px;
   @include media-breakpoint-up(lg) {
-    width: auto;
-    height: 100%;
+    max-width: 300px;
+    min-height: 412px;
   }
 }
 
@@ -289,7 +289,7 @@ li.swiper-slide {
 }
 
 .btn-card {
-  min-width: 332px;
+  min-width: 303px;
 }
 
 .plus-sign {
