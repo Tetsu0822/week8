@@ -10,3 +10,36 @@
 .breadcrumb-link {
     color: $primary;
 }
+
+// image-wrapper
+.rounded-top-end {
+    border-top-right-radius: 1rem !important; /* 跟 Bootstrap 預設 rounded 數值一致 */
+}
+
+.rounded-bottom-end {
+    border-bottom-right-radius: 1rem !important;
+}
+
+// 自訂響應式圓角 Utility
+.rounded-lg-start {
+    border-top-left-radius: var(--bs-border-radius) !important;
+    border-bottom-left-radius: var(--bs-border-radius) !important;
+    border-top-right-radius: var(--bs-border-radius) !important;
+    border-bottom-right-radius: var(--bs-border-radius) !important;
+    @include media-breakpoint-up(lg) {
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+}
+
+.icon-favorite-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 56px;
+  height: 56px;
+  background-color: rgba(43, 33, 28, .5);
+  border-bottom-left-radius: var(--bs-border-radius) !important;
+  border-top-right-radius: var(--bs-border-radius) !important;
+}
+

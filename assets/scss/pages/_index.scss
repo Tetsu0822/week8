@@ -145,14 +145,8 @@
 }
 
 .map-card {
-  min-width: 312px;
-  max-width: 90%;
+  width: 100%;
   flex-shrink: 0;
-  position: relative;
-  overflow: visible;
-  @include media-breakpoint-up(lg) {
-    max-width: 64.333%;
-  }
 }
 
 .map-tag {
