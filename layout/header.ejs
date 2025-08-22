@@ -5,7 +5,7 @@
         <a class="navbar-brand p-0 me-7" href="index.html">
           <img src="/assets/images/logo.svg" alt="LOGO" />
         </a>
-    
+
         <!-- PC版搜尋框 -->
         <form class="position-relative d-none d-lg-block">
           <span
@@ -96,7 +96,13 @@
       aria-labelledby="offcanvasNavbarLabel"
     >
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+        <div class="d-flex align-items-center">
+          <img class="navbar-avatar me-2" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week8/user/avatar-1.png?raw=true" alt="avatar" />
+          <div class="d-flex flex-column">
+            <h5 class="fs-7 fw-bold text-primary">Jessica</h5>
+            <h6 class="fs-7 fw-normal text-neutral-80">jessica.yen@gamil.com</h6>
+          </div>
+        </div>
         <button
           type="button"
           class="btn-close"
@@ -107,38 +113,27 @@
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">
+              <span class="material-icons-outlined align-bottom ps-2"
+                >article</span
+              >
+              訂單管理</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">
+              <span class="material-icons-outlined align-bottom ps-2"
+                >favorite</span
+              >
+              我的收藏</a>
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider" /></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <span class="material-icons-outlined align-bottom ps-2"
+                >settings</span
+              >
+              帳號設定</a>
           </li>
         </ul>
-        <form class="d-flex mt-3" role="search">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </div>

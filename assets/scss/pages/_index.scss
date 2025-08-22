@@ -160,6 +160,15 @@
   z-index: 10;
 }
 
+.map-img {
+  width: 280px;
+  height: 200px;
+  @include media-breakpoint-up(lg) {
+    width: auto;
+    height: 100%;
+  }
+}
+
 .local-tag {
   position: absolute;
   top: -48px;
@@ -246,7 +255,7 @@ li.swiper-slide {
     font-size: 130px;
     font-weight: bold;
     white-space: nowrap;
-    
+
     animation-name: marquee;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -288,5 +297,3 @@ li.swiper-slide {
   top: 0;
   right: -0.6em;
 }
-
-

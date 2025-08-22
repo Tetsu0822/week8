@@ -2,7 +2,7 @@ html {
   // 設定頁面可滾動，並為滾動條定義時間軸，實驗性與法
   scroll-timeline-name: --page-scroll;
   scroll-timeline-axis: block;
-  
+
 }
 
 .cart-tag {
@@ -41,3 +41,24 @@ html {
     backdrop-filter: blur(4px);
   }
 }
+
+.navbar-avatar {
+  width: 32px;
+  height: 32px;
+}
+
+
+// .offcanvas-header {
+//   padding-top: 64px;
+//   padding-bottom: 24px;
+// }
+
+.offcanvas {
+  z-index: 2000 !important;
+}
+
+
+// .offcanvas-body {
+//   flex: 1 1 auto !important;
+//   overflow-y: auto !important;
+// }
